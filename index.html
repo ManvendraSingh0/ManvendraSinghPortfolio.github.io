@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Manvendra Singh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awsome Links -->
+  <link rel="icon" type="image/x-icon" href="png-clipart-gold-letter-m-.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="night.css">
+  <link rel="stylesheet" href="E&E.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="columnlayout.css">
+  <link rel="stylesheet" href="Hider.css">
+  <link rel="stylesheet" href="laod.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Links -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- <script src="//code.tidio.co/bflyzklwtbd0u75wx6z6l8e36svo60zr.js" async></script> -->
+  <script src="navbartoggle.js"></script>
+  <script src="api.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://kit.fontawesome.com/81831682c9.js" crossorigin="anonymous"></script>
+  <script src="homeintotext.js"></script>
+
+  <!-- <script src="3dDonut.js"></script> -->
+  <!-- End  -->
+</head>
+
+<body onload="myFunction()" style="background:black; background-size:cover ;" color="bg-dark">
+
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav hoo ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                aria-current="page" onclick="window.location.reload();" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link  active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+              href="">About</a> -->
+              <a class="nav-link active" href="#a_s">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="#e_e">Exp &
+                Edu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="S&C.html">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="content" id="home">
+      <div class="container center-content">
+        <h3>Hi👋, I'm
+          <b id="full-name-text"> Manvendra Singh</b>
+        </h3>
+        <img class="profile_pic" src="profile.jpg" alt="User">
+        <h3 id="home-into-text">
+          I am into Full Stack Development
+          <span class="txt-rotate" data-period="3000"
+            data-rotate='["JAVA Development","FrontEnd Development","WEB Development","UI/UX","Mentoring"]'></span>
+        </h3>
+        <div class="main">
+          <a href="https://github.com/ManvendraSingh0" target="_blank"> <i class=" fa-brands fa-3x fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/manvendra-singh-49a1751b9/" target="_blank">
+            <i class="fab fa-3x fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/rajput_maan_/" target="_blank">
+            <i class="fa-3x fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://linktr.ee/manvendra_singh" target="_blank">
+            <i class="fa-solid fa-3x fa-circle-info"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script>
+      $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+      });
+    </script>
+    
+  </div>
+  <div id="a_s">
+    <section class="about">
+      <div id="me">
+        <div id="information">
+          <h2>Hello, peeps<span> I'm A Developer</span></h2>
+          <p>Building a successfull product is a challenge, I am highly energetic in building
+            a successfull product.
+          </p>
+          <br>
+          <div id="import">
+            <button type="button" class="btn btn-outline-dark"><a id="t" target="_blank"
+                href="ManvendraSingh_B.Tech_GLAUNIVERSITY.pdf">My
+                Resume</a></button>
+            <button type="button" class="btn btn-outline-dark"><a id="t" target="_blank"
+                href="mailto: manvendra.singh_cs20@gla.ac.in">Hire me</a></button>
+          </div>
+          <br>
+
+          <br>
+        </div>
+        <img data-aos="zoom-in" data-aos-duration="2000" src="./IMG_4220.jpg" alt="User-Image">
+      </div>
+    </section>
+    <div class="left" style="color: black;">
+      <div class="box box1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <!-- <span id="internship">
+          <i class="fa-solid fa-id-card-clip"></i>
+        </span> -->
+        <br>
+        <h3>2</h3>
+        <p>Internship</p>
+      </div>
+
+      <div class="box box2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <!-- <span id="certifications">
+          <i class="fa-solid fa-award"></i>
+        </span> -->
+        <br>
+        <h3>10</h3>
+        <p>Certifications</p>
+      </div>
+      <div class="box box3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <!-- <span id="projects">
+          <i class="fa-brands fa-app-store"></i>
+        </span> -->
+        <br>
+        <h3>3</h3>
+        <p>Projects</p>
+      </div>
+      <div class="box box4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <!-- <span id="organizations">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </span> -->
+        <br>
+        <h3>3</h3>
+        <p>Organizations</p>
+      </div>
+    </div>
+    <div id="e_e">
+      <section id="experience" style="color:white;">
+        <h2>Experiences</h2>
+        <br><br>
+        <div class="e1" data-aos="fade-up" data-aos-duration="3000">
+            <div class="data">
+                <img src="GLA_University_logo.png" alt="CompanyLogo">
+            </div>
+            <div class="data">
+                <p>FontEnd Developer</p>
+                <p>GLA Alumni Portal</p>
+            </div>
+            <div class="data">
+                <h5>October 2022 - November 2022</h5>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="roundhr">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+          <div class="e1" data-aos="fade-up" data-aos-duration="3000">
+              <div class="data">
+                  <img src="TCS-iON-Logo-RGB-Color.png" alt="CompanyLogo">
+              </div>
+              <div class="data">
+                  <p>FrontEnd Intern</p>
+                  <p>TCSiON-Noida</p>
+              </div>
+              <div class="data">
+                  <h5>June 2022 - August 2022</h5>
+              </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="3000" class="roundhr">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+          </div>
+        <div class="e2" data-aos="fade-up" data-aos-duration="3000">
+            <div class="data">
+                <img src="cloud.png" alt="CompanyLogo">
+            </div>
+            <div class="data">
+                <p>Google Cloud Ready Program</p>
+                <p>Google Cloud-India</p>
+            </div>
+            <div class="data">
+                <h5>May 2022 - July 2022</h5>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="roundhr">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+    </section>
+    <div class="left">
+        <div class="box box1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <!-- <span id="graduation">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span> -->
+            <br>
+            <h3>Bachelor of Technology</h3>
+            <span>Mathura,India</span><br>
+            <span>2020-2024</span><br>
+            <span>Computer Science and Engineering</span><br>
+            <span>CPI : 8.56</span>
+        </div>
+
+        <div class="box box2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <!-- <span id="school">
+                <i class="fa-solid fa-building-columns"></i>
+            </span> -->
+            <br>
+            <h3>Intermendiate</h3>
+            <span>SSAVP School , Agra</span><br>
+            <span>2015-2017</span><br>
+            <span>PCM</span><br>
+            <span>Percentage : 82.2%</span>
+        </div>
+        <div class="box box3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <!-- <span id="school1">
+                <i class="fa-solid fa-building-columns"></i>
+            </span> -->
+            <br>
+            <h3>High School</h3>
+            <span>SVMI Academy, Agra</span><br>
+            <span>2013-2015</span><br>
+            <span>Percentage : 9.8CGPA</span>
+        </div>
+    </div>
+    </div>
+    <div>
+
+    </div>
+    <script>
+      var myVar;
+
+      function myFunction() {
+        document.body.style.background = "white";
+        myVar = setTimeout(showPage, 1000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+        document.body.style.background = "url('61769.jpg')";
+        document.body.style.backgroundSize = "cover";
+      }
+
+    </script>
+
+    <!-- <section id="about">
+    <div>
+       <img src="about.png" style="width: 500px; height:500px;">
+    </div>
+  </section> -->
+</body>
+
+</html>
