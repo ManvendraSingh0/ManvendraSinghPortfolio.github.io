@@ -100,6 +100,7 @@
       $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
       });
+      
     </script>
     
   </div>
@@ -276,6 +277,20 @@
         document.body.style.background = "url('61769.jpg')";
         document.body.style.backgroundSize = "cover";
       }
+      const image=document.querySelector('section div img');
+      let ist=false;
+      function flipim()
+      {
+        if(ist)
+        {
+          image.setAttribute('src','https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+        }
+        else{
+          image.setAttribute('src','profile.jpg');
+        }
+        ist=!ist;
+      }
+      setInterval(flipim,2000);
 
     </script>
 
